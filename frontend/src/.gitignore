@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Modelos entrenados (NO subir a Git)
+models/*.pkl
+models/*.joblib
+
+# Datos locales
+data/*.csv
+data/*.parquet
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Logs
+*.log
+
+# OS / Editor
+.vscode/
+.DS_Store
+Thumbs.db
