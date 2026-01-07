@@ -15,8 +15,8 @@ def get_model():
     if _model is None:
         if not os.path.exists(MODEL_PATH):
             raise FileNotFoundError(
-                f"No se encontró el modelo en {MODEL_PATH}. "
-                f"Ejecura primero ml/train_model.py"
+                f"Model not found  {MODEL_PATH}. "
+                f"Execute first ml/train_model.py"
             )
         _model = joblib.load(MODEL_PATH)
     return _model
